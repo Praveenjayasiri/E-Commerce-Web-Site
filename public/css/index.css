@@ -1,0 +1,10 @@
+/* nav-bar buttons */
+.logo{
+    width: auto;
+    height: 70px;
+}
+
+.custom-btn {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+}

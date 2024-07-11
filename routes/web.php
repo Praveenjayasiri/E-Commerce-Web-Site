@@ -21,3 +21,11 @@ Route::middleware('auth')->group(function () {
 require __DIR__ . '/auth.php';
 
 route::get('admin/dashboard', [Homecontroller::class, 'index'])->middleware(['auth', 'admin']);
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/products', function () {
+    return view('products');
+});

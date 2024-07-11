@@ -1,0 +1,25 @@
+/* nav-bar buttons */
+.logo{
+    width: auto;
+    height: 70px;
+}
+
+.custom-btn {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+}
+
+/* cards */
+.card-img-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+
+.card-img:hover {
+    transform: scale(1.4);
+}
