@@ -1,5 +1,5 @@
-/* nav-bar buttons */
-.logo{
+/* Navbar Styling */
+.logo {
     width: auto;
     height: 70px;
 }
@@ -7,4 +7,80 @@
 .custom-btn {
     padding: 0.5rem 1rem;
     margin-left: 1rem;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background: url('https://www.sunrate.com/wp-content/uploads/2023/04/sub_banner6.png') no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* Featured Products */
+.card {
+    border: none;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    object-fit: fill;
+    height: 300px;
+}
+
+.card-title {
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+/* Promo Section */
+.promo-section {
+    background: linear-gradient(to right, #0a4454, #095440);
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* Additional Section */
+.container.my-5 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 428px) {
+    .hero-banner h1{
+        font-size: 2rem;
+    }
+
+    .hero-banner p{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .hero-banner h1{
+        font-size: 2rem;
+    }
+
+    .hero-banner p{
+        font-size: 1rem;
+    }
 }
